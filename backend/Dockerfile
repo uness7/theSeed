@@ -4,6 +4,8 @@ WORKDIR /backend
 
 COPY . .
 
+RUN apt-get update -y && apt-get install -y postgresql-client
+
 RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8000
