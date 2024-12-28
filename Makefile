@@ -12,5 +12,7 @@ stop:
 clean:
 	docker compose down -v
 
+re: stop run
+
 fclean: clean
 	docker system prune -af
