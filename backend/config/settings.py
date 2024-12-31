@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
+from datetime import timedelta
 from pathlib import Path
 import os
 
@@ -41,7 +41,12 @@ INSTALLED_APPS = [
 
     # Apps
     'dashboard.apps.DashboardConfig',
-    'user.apps.UserConfig',
+    'accounts.apps.AccountsConfig',
+
+    # third-party apps
+    'rest_framework_simplejwt.token_blacklist',
+    'rest_framework_simplejwt',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -59,7 +64,9 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'templates',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -72,6 +79,7 @@ TEMPLATES = [
     },
 ]
 
+
 WSGI_APPLICATION = 'config.wsgi.application'
 
 
@@ -80,12 +88,12 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
         'default': {
-            'ENGINE': os.getenv('DB_ENGINE'),
-            'NAME': os.getenv('DB_NAME'),
-            'USER': os.getenv('DB_USER'),
-            'PASSWORD': os.getenv('DB_PASSWORD'),
-            'HOST': os.getenv('DB_HOST'),
-            'PORT': os.getenv('DB_PORT'),
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'theseed',
+            'USER': 'postgres',
+            'PASSWORD': 'postgres2025',
+            'HOST': 'db',
+            'PORT': '5432',
         }
 };
 
@@ -130,3 +138,22 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+AUTH_USER_MODEL = 'accounts.CustomUser';
+
+REST_FRAMEWORK = {
+
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+
+        'accounts.authentication.CookieJWTAuthentication',
+    )
+}
+
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=0.2),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
+    "ROTATE_REFRESH_TOKENS": False,
+    "BLACKLIST_AFTER_ROTATION": False,
+}
+
+LOGIN_REDIRECT_URL = "home"
+LOGOUT_REDIRECT_URL = "home"
