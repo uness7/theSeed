@@ -6,10 +6,12 @@ services:
     volumes:
       - ./backend:/backend 
     environment:
-      - DATABASE_URL=${DB_URL}
-      - POSTGRES_DB=${DB_NAME}
-      - POSTGRES_USER=${DB_USER}
-      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=theseed
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres2025
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_ENGINE=django.db.backends.postgresql
     command: ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
     restart: unless-stopped
     depends_on:
@@ -22,9 +24,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     environment:
-      - POSTGRES_DB=${DB_NAME}
-      - POSTGRES_USER=${DB_USER}
-      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=theseed
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres2025
     ports:
       - "5432:5432"
     restart: unless-stopped
