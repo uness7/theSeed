@@ -72,6 +72,16 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## 📧 Contact
 
+
+
+[djangoproject.com]: https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green
+[django-url]: https://www.djangoproject.com/
+[angular.dev]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[angular-url]: https://angular.dev/
+[Docker.com]: https://img.shields.io/badge/docker-257bd6?style=for-the-badge&logo=docker&logoColor=white
+[Docker-url]: https://www.docker.com/
+[postgresql.org]: https://img.shields.io/badge/postgresql-4169e1?style=for-the-badge&logo=postgresql&logoColor=white
+[postgresql-url]: https://www.postgresql.org/
 Youness Zioual - @uness7 - younes.zioual.dev@gmail.com
 Victor - @victor - victor@gmail.com
 
