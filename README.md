@@ -73,7 +73,6 @@ Distributed under the MIT License. See LICENSE for more information.
 ## 📧 Contact
 
 
-
 [djangoproject.com]: https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green
 [django-url]: https://www.djangoproject.com/
 [angular.dev]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
