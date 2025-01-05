@@ -1,4 +1,4 @@
-# theSeed
+# TheSeed
 
 Where all your information is gathered before it blooms.
 
