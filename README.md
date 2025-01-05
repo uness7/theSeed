@@ -21,11 +21,7 @@ TheSeed provides a comprehensive solution for businesses to:
 - Make data-driven decisions with confidence
 
 ## 🛠️ Built With:
-
-* [![Django][djangoproject.com]][django-url]
-* [![Angular][angular.dev]][angular-url]
-* [![Docker][Docker.com]][Docker-url]
-* [![Postgres][postgresql.org]][postgresql-url]
+[![Django][djangoproject.com]][django-url] | [![Angular][angular.dev]][angular-url] |  [![Docker][Docker.com]][Docker-url] | [![Postgres][postgresql.org]][postgresql-url]
 
 ## 🗺️ Roadmap
 Phase 1: Data Collection
