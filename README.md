@@ -67,7 +67,7 @@ Distributed under the MIT License. See LICENSE for more information.
 ## 📧 Contact
 
 Youness Zioual - @uness7 - younes.zioual.dev@gmail.com
-Victor - @victor - victor@gmail.com
+Victor - @BolvicBolvicovic
 
 Project Link: https://github.com/uness7/theSeed
 
