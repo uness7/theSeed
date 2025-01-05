@@ -1,4 +1,5 @@
 # TheSeed 🌱
+[![Django][djangoproject.com]][django-url] [![Angular][angular.dev]][angular-url] [![Docker][Docker.com]][Docker-url] [![Postgres][postgresql.org]][postgresql-url]
 
 Where all your information is gathered before it blooms.
 
@@ -19,9 +20,6 @@ TheSeed provides a comprehensive solution for businesses to:
 - Generate meaningful KPIs automatically
 - Create insightful diagrams and visualizations with AI assistance
 - Make data-driven decisions with confidence
-
-## 🛠️ Built With:
-[![Django][djangoproject.com]][django-url] | [![Angular][angular.dev]][angular-url] |  [![Docker][Docker.com]][Docker-url] | [![Postgres][postgresql.org]][postgresql-url]
 
 ## 🗺️ Roadmap
 Phase 1: Data Collection
