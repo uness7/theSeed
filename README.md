@@ -66,6 +66,12 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## 📧 Contact
 
+Youness Zioual - @uness7 - younes.zioual.dev@gmail.com
+Victor - @victor - victor@gmail.com
+
+Project Link: https://github.com/uness7/theSeed
+
+
 
 [djangoproject.com]: https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green
 [django-url]: https://www.djangoproject.com/
@@ -75,8 +81,3 @@ Distributed under the MIT License. See LICENSE for more information.
 [Docker-url]: https://www.docker.com/
 [postgresql.org]: https://img.shields.io/badge/postgresql-4169e1?style=for-the-badge&logo=postgresql&logoColor=white
 [postgresql-url]: https://www.postgresql.org/
-Youness Zioual - @uness7 - younes.zioual.dev@gmail.com
-Victor - @victor - victor@gmail.com
-
-Project Link: https://github.com/yourusername/theseed
-
