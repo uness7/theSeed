@@ -7,10 +7,10 @@ TheSeed is an intelligent data aggregation and visualization platform that helps
 
 ## 🎯 Key Features
 
-Data Aggregation: Seamlessly collect data from various platforms into a single dashboard
-Smart Analytics: AI-powered KPI generation and trend analysis
-Custom Visualizations: Create beautiful, interactive diagrams and charts
-Scalable Architecture: Built with enterprise-grade technologies for reliability and performance
+**Data Aggregation**: Seamlessly collect data from various platforms into a single dashboard 
+**Smart Analytics**: AI-powered KPI generation and trend analysis
+**Custom Visualizations**: Create beautiful, interactive diagrams and charts
+**Scalable Architecture**: Built with enterprise-grade technologies for reliability and performance
 
 
 ## 🚀 What Are We Offering?
