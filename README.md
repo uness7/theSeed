@@ -3,7 +3,7 @@
 
 Where all your information is gathered before it blooms.
 
-TheSeed is an intelligent data aggregation and visualization platform that helps businesses make data-driven decisions by centralizing their metrics across multiple platforms.
+_TheSeed_ is an intelligent data aggregation and visualization platform that helps businesses make data-driven decisions by centralizing their metrics across multiple platforms.
 
 ## 🎯 Key Features
 
