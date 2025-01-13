@@ -1,0 +1,14 @@
+<nav class="navbar">
+    <div class="navbar-brand">
+        <a routerLink="/" class="logo">TheSeed</a>
+    </div>
+
+    <button class="mobile-menu-btn" (click)="toggleMobileMenu()">
+        <span class="material-icons">{{ isMenuOpen ? 'close' : 'menu' }}</span>
+    </button>
+
+    <div class="nav-links" [class.active]="isMenuOpen">
+        <a routerLink="/login" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Login</a>
+        <a routerLink="/signup" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Sign up</a>
+    </div>
+</nav>
